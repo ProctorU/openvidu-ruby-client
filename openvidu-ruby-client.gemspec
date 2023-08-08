@@ -47,6 +47,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "simplecov", "~> 0.17"
 
   spec.add_runtime_dependency "addressable", ">= 2.5.0"
-  spec.add_runtime_dependency "mini_mime", "1.1.2"
   spec.add_runtime_dependency "httparty", ">= 0.13"
 end
