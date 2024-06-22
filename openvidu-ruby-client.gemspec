@@ -47,6 +47,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "simplecov", "~> 0.17"
 
   spec.add_runtime_dependency "multi_xml", "~> 0.6.0"
-  spec.add_runtime_dependency "addressable", ">= 2.5.0"
+  spec.add_runtime_dependency "addressable", "~> 2.8.6"
   spec.add_runtime_dependency "httparty", ">= 0.13"
 end
