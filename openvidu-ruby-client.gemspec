@@ -45,7 +45,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "openssl", ">= 2.1.2" # Fix for Travis CI
   spec.add_development_dependency "webmock", "~> 3.7"
   spec.add_development_dependency "simplecov", "~> 0.17"
-
+  
+  spec.add_runtime_dependency "public_suffix", "~> 5.1", ">= 5.1.1"
   spec.add_runtime_dependency "multi_xml", "~> 0.6.0"
   spec.add_runtime_dependency "addressable", "~> 2.8.6"
   spec.add_runtime_dependency "httparty", ">= 0.13"
